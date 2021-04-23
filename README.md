@@ -17,6 +17,10 @@
 
 `./chromedriver90 --port=4444 --verbose`
 
-3). Run test
+3a). Demo: Run test
 
 `npx wdio run wdio.conf.js --spec test/specs/example.e2e.js`
+
+3b). Demo: Mocking
+
+`npx wdio wdio.conf.js --spec test/specs/example.mocking.js`
